@@ -1,0 +1,46 @@
+[
+
+    {
+        "id": 68415,
+        "titulo": "Call of Duty: Modern Warfare 2 Remastered",
+        "precio": 59.95,
+        "categoria": "Shooter",
+        "stock": 15,
+        "img": "src/img/MW2.jpg"
+    },
+    {
+        "id": 25248,
+        "titulo": "Elden Ring",
+        "precio": 69.95,
+        "categoria": "RPG",
+        "stock": 7,
+        "img": "src/img/ELDENRING.jpg"
+    },
+    {
+        "id": 56885,
+        "titulo": "NBA2k23",
+        "precio": 44.99,
+        "categoria": "Deportes",
+        "stock": 19,
+        "img": "src/img/NBA2K23.jpg"
+    },
+    {
+        "id": 62623,
+        "titulo": "Madison",
+        "precio": 50,
+        "categoria": "Terror",
+        "stock": 3,
+        "img": "src/img/MADISON.jpg"
+    },
+    {
+        "id": 19051,
+        "titulo": "Stardew Valley",
+        "precio": 18.99,
+        "categoria": "Indie",
+        "stock": 12,
+        "img": "src/img/STARDEWVALLEY.jpg"
+    }
+
+]
+
+

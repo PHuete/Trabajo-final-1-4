@@ -1,0 +1,161 @@
+/* Modal */
+.modal-container {
+  display: inline-block;
+  padding-top: 20%;
+  position: absolute;
+  top: 280px;
+  width: 50%;
+  height: 20%;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.5);
+  visibility: hidden;
+
+}
+
+/* hacer visible el modal  */
+.modal-active {
+  opacity: 1;
+  visibility: visible;
+  z-index: 5;
+}
+
+.modal-cart {
+  box-sizing:border-box;
+  padding-top: 20%;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(4, 30, 158);
+
+
+}
+
+#cart-container {
+  padding-top: 1%;
+  position: absolute;
+  top: 40px;
+  width: 100%;
+  height: 80%;
+  background-color: rgb(4, 30, 158);
+  /* padding-top: 16%;
+  display: normal;
+  margin: 40px auto;
+  justify-content: space-evenly;
+  flex-wrap: wrap;*/
+  overflow-y: scroll;
+ 
+}
+
+
+#cartTitle {
+  margin: 5px 0;
+  padding: 5px;
+  font: bold 1.5rem 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  position: absolute;
+  top: 0;
+
+
+
+}
+
+#close {
+  margin: 5px;
+  position: absolute;
+  top: 0px;
+  left: 990px;
+  color: black;
+}
+
+.productInCart {
+  color:rgb(31, 31, 31);
+  background-color: grey;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  margin: 10px 0;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+  ;
+  /* border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 20%;
+  height: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; */
+}
+
+
+.card {
+  margin: 15px;
+  padding: 0, 5px;
+  position: fixed;
+  top: 100px;
+
+}
+
+#product-container {
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.buttonCabecera {
+  margin: 15px;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: rgb(42, 4, 253);
+  color: white;
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+
+.fondo {
+  background-color: rgba(48, 78, 177, 0.66);
+}
+
+.btn-primary {
+  background-color: rgb(42, 4, 253);
+  border-radius: 20px;
+  justify-content: center;
+  color: white;
+  width: 220px;
+}
+
+.centrarh1 {
+  text-align: center;
+  position: fixed;
+  left: 500px;
+  top: 90px;
+  font: bold 3.5rem 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  ;
+}
+
+.botonComprar {
+  margin: 15px;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: rgb(42, 4, 253);
+  color: white;
+  position: fixed;
+  top: 635px;
+  left: 870px;
+
+}
+
+.modal-active {
+  opacity: 1;
+  visibility: visible;
+  z-index: 5;
+}
+
+
+
+.container-fluid {
+  background-color: rgba(48, 78, 177, 0.66);
+}
